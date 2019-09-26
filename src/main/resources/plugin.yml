@@ -1,0 +1,4 @@
+name: FireflyX
+version: 1
+load: STARTUP
+main: com.ngxdev.anticheat.Firefly

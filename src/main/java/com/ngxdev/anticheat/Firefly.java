@@ -144,11 +144,11 @@ public class Firefly extends JavaPlugin {
         storage.init();
         ConfigValueX.values();
         save();
-	    if (devServer) {
-		    Bukkit.getPluginManager().registerEvents(new DevServerListener(), this);
-	    } else {
-		    if (ap.equals("instance") || ap.equals("local")) return;
-	    }
+//	    if (devServer) {
+//		    Bukkit.getPluginManager().registerEvents(new DevServerListener(), this);
+//	    } else {
+//		    if (ap.equals("instance") || ap.equals("local")) return;
+//	    }
 	    try {
 		    Init.Dynamic.get().forEach(clazz -> {
 			    try {

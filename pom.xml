@@ -34,7 +34,7 @@
             <groupId>org.atteo.classindex</groupId>
             <artifactId>classindex</artifactId>
             <version>3.6</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>us.myles</groupId>
